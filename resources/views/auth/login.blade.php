@@ -19,8 +19,8 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
     <!-- Pace Loading -->
-    <script src="{{asset('assets/plugins/pace/pace.min.js')}}"></script>
-    <link rel="stylesheet" href="{{asset('assets/plugins/pace/pace-theme-default.min.css')}}">
+    <script src="{{asset('assets/plugins/pace-progress/pace.min.js')}}"></script>
+    <link rel="stylesheet" href="{{asset('assets/plugins/pace-progress/themes/green/pace-theme-material.css')}}">
     <!-- Sweet Alert2 -->
     <script src="{{asset('assets/plugins/sweet-alert2/sweetalert2.all.min.js')}}"></script>
     <link rel="stylesheet" href="{{asset('assets/plugins/sweet-alert2/sweetalert2.min.css')}}">

@@ -24,24 +24,33 @@
     <!-- loading css -->
     <link rel="stylesheet" href="{{asset('assets/dist/css/Loading.css')}}">
 
+    <!-- Page wise css -->
     @stack('css')
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
     <!-- Pace Loading -->
-{{--    <script src="{{asset('assets/plugins/pace/pace.min.js')}}"></script>--}}
-{{--    <link rel="stylesheet" href="{{asset('assets/plugins/pace/pace-theme-default.min.css')}}">--}}
-<!-- jQuery -->
+    <script src="{{asset('assets/plugins/pace-progress/pace.min.js')}}"></script>
+    <link rel="stylesheet" href="{{asset('assets/plugins/pace-progress/themes/green/pace-theme-material.css')}}">
+
+    <!-- jQuery -->
     <script src="{{asset('assets/plugins/jquery/jquery.min.js')}}"></script>
     <!-- Bootstrap 4 -->
     <script src="{{asset('assets/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
-{{--    <script src="{{asset('assets/dist/js/CommonReference.js')}}"></script>--}}
 
     <!-- Sweet Alert2 -->
     <script src="{{asset('assets/plugins/sweet-alert2/sweetalert2.all.min.js')}}"></script>
     <link rel="stylesheet" href="{{asset('assets/plugins/sweet-alert2/sweetalert2.min.css')}}">
     <!-- Knockout JS -->
-{{--    <script src="{{asset('assets/dist/js/knockout-3.5.1.js')}}"></script>--}}
+    <script src="{{asset('assets/dist/js/knockout-3.5.1.js')}}"></script>
+
+    <!-- Custom scripts -->
+    <script>
+        let BASE_URL = '{{url('/')}}';
+    </script>
+    <script src="{{asset('assets/dist/js/CommonRequestjs.js')}}"></script>
+    <script src="{{asset('assets/dist/js/CommonMsgjs.js')}}"></script>
+    <script src="{{asset('assets/dist/js/CommonReference.js')}}"></script>
 
 
 

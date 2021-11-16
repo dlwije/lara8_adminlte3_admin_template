@@ -1,6 +1,8 @@
 @extends('template.master')
 @section('title','Users')
+@push('css')
 <link rel="stylesheet" href="{{asset('assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css')}}">
+@endpush
 
 @section('content')
     <div class="card">
